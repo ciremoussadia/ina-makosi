@@ -11,6 +11,15 @@ a,  a:visited{
 a:hover {
   color: #9CCC65;
 }
+
+#brand a:hover {
+  background-color: #9CCC65;
+  color: #FAFAFA;
+}
+
+* {
+  box-sizing: border-box;
+}
 /***** End of Resets *****/
 
 /** Layouts **/
@@ -48,4 +57,30 @@ header{
   border: 2px solid rgb(245, 245, 245);
   padding: .2em .8em;
 
+}
+
+.text-content {
+  text-align: center;
+  margin: 50vh 0;
+}
+.text-content h1 {
+  color: #9CCC65;
+}
+.text-content p {
+  color: #BDBDBD;
+}
+
+.bg-1 {
+  /*border: 1px solid black;*/
+  background: url("../images/ina-NB.jpg")center no-repeat fixed;
+  background-size: contain;
+  width: 100%;
+}
+.bg-2 {
+  align-items: center;
+  /*border: 1px solid black;*/
+  background: url("../images/received_10208602249042819.jpeg")center no-repeat fixed;
+  background-size: contain;
+  width: 100%;
+  height: 1000px;
 }
