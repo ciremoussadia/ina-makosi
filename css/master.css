@@ -1,0 +1,51 @@
+/* Resets *******/
+body {
+  font-family: 'Baloo', cursive;
+  color: #424242;
+}
+
+a,  a:visited{
+  text-decoration: none;
+  color: #424242;
+}
+a:hover {
+  color: #9CCC65;
+}
+/***** End of Resets *****/
+
+/** Layouts **/
+.container{
+  margin: 2% 10%;
+  display: flex;
+}
+
+.row{
+  flex-direction: row;
+}
+
+header{
+  padding: 1% 0;
+  background-color: #FAFAFA;
+}
+#brand {
+  flex-grow: 2;
+}
+/** End Layouts**/
+
+
+#icons {
+  padding: .2em .8em;
+}
+
+.fa {
+  margin: 0 .3em;
+}
+
+#brand a {
+  text-transform: uppercase;
+  font-size: 1.2em;
+  letter-spacing: .6em;
+  border: 2px solid rgb(245, 245, 245);
+  padding: .2em .8em;
+
+}
